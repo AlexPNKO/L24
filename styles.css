@@ -14,6 +14,18 @@ html {
   height: 62px;
   margin: auto;
   display: flex;
+  margin-top: 39px;
+}
+.header__button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  line-height: 13px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
 }
 .navigation {
   margin-left: auto;
@@ -33,7 +45,15 @@ html {
 .navigation__item:last-child {
   margin-right: 0;
 }
+.navigation__item:last-child::after {
+  margin-right: 0;
+}
 .navigation__arrow {
+  display: inline-block;
+  height: 5px;
+  width: 8px;
+  background-image: url(img/Arrow.png);
+  margin-left: 11px;
 }
 .logo {
   display: flex;
@@ -59,14 +79,6 @@ html {
   flex-direction: column;
   justify-content: center;
 }
-.header__button {
-  width: 160px;
-  height: 48px;
-  font-size: 18px;
-  line-height: 13px;
-  color: #fff;
-  background-color: #3040c4;
-  font-weight: 700;
-  border: none;
-  border-radius: 2px;
+.top-section {
+  background-color: #f3c6bd;
 }
