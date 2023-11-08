@@ -92,18 +92,23 @@ html {
   height: 338px;
   padding: 44px;
 }
-.footer-links {
-  width: 1140px;
-  height: 50px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
+.footer__description {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
 }
 .footer__line {
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
   margin: 0;
+}
+.footer-links {
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 .terms {
   line-height: 50px;
