@@ -86,17 +86,18 @@ html {
   display: flex;
   flex-direction: column;
 }
+.footer-navigation {
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+  padding: 44px;
+}
 .footer-links {
   width: 1140px;
   height: 50px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-}
-.footer-navigation {
-  width: 1140px;
-  margin: 0 auto;
-  height: 338px;
 }
 .footer__line {
   border-top: 1px solid #2b292d;
