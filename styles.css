@@ -90,14 +90,16 @@ html {
   width: 1140px;
   height: 50px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
-.useful-links {
+.footer-navigation {
   width: 1140px;
   margin: 0 auto;
   height: 338px;
 }
 .footer__line {
-  border: 1px solid #2b292d;
+  border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
   margin: 0;
@@ -111,4 +113,10 @@ html {
   color: #2b292d;
   opacity: 0.6;
   margin-right: 22px;
+}
+.social-links {
+  margin-left: auto;
+}
+.social-links__item {
+  margin-left: 20px;
 }
