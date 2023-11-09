@@ -43,8 +43,7 @@ html {
 .logo__description {
   font-size: 18px;
   line-height: 25px;
-  color: #2b292d;
-  opacity: 0.6;
+  color: rgba(43, 41, 45, 0.6);
 }
 .navigation {
   margin-left: auto;
@@ -90,12 +89,45 @@ html {
   width: 1140px;
   margin: 0 auto;
   height: 338px;
-  padding: 44px;
+  display: flex;
+}
+.about-company {
+  margin-top: 44px;
 }
 .footer__description {
   line-height: 26px;
   font-size: 18px;
   width: 360px;
+  margin: 26px 0 25px 0;
+  color: rgba(43, 41, 45, 0.6);
+}
+.downloads__item {
+  margin: 0 10px 0 0;
+}
+.additional-navigation {
+  margin: 60px 0 0 auto;
+  display: flex;
+}
+.additional-navigation__column {
+  margin: 0 29px 0 0;
+}
+.nav-links {
+  width: 265px;
+}
+.nav-links__title {
+  margin: 0;
+  color: #2b292d;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.nav-links__list {
+  list-style: none;
+  color: rgba(43, 41, 45, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0;
+  margin: 18px 0 0 0;
 }
 .footer__line {
   border-top: 1px solid #2b292d;
