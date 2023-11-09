@@ -70,7 +70,7 @@ html {
   background-image: url(img/Arrow.png);
   margin-left: 11px;
 }
-.header__button {
+.action-button {
   background-color: #3040c4;
   color: #fff;
   width: 160px;
