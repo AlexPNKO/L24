@@ -1,4 +1,9 @@
 .features {
+  display: flex;
+  position: relative;
+}
+
+.features__content {
   width: 1140px;
   margin: auto;
   display: flex;
@@ -66,4 +71,15 @@
   font-weight: 700;
   line-height: 26px;
   margin: 0 0 0 15px;
+}
+
+.features__left-decoration {
+  height: 166px;
+  position: absolute;
+  top: 258px;
+}
+
+.features__banner {
+  position: absolute;
+  right: 0;
 }
