@@ -23,6 +23,8 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
+  background-image: url("../img/menu-icon.png");
+  display: inline-block;
 }
 .logo {
   display: flex;
@@ -58,6 +60,7 @@
     height: 62px;
     margin: auto;
     display: flex;
+    background-color: #f3c6bd;
   }
   .logo__image {
     width: 60px;
