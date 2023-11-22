@@ -1,25 +1,56 @@
-.features {
-  display: flex;
-  position: relative;
+.tips {
+  margin: 8px 0 0 0;
 }
 
-@media screen and (max-width: 400px) {
-  .features {
+@media screen and (min-width: 400px) {
+  .tips {
     display: none;
   }
 }
 
-.features__content {
-  width: 1140px;
-  margin: auto;
-  display: flex;
+.tip {
+  padding: 40px 15px 0 15px;
+  border-bottom: 1px solid #e3e3e3;
 }
 
-.features__column {
+.tip__subtitle {
+  color: #009b4d;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.tip__title {
+  margin: 17px 0 0 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.357px;
+}
+
+.tip__description {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 13px 0 0 0;
+}
+
+.tip__image {
+  margin: 29px 0 0 0;
+}
+
+.tip__image-caption {
+  color: rgba(43, 41, 45, 0.6);
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 20px 0 0 0;
+}
+
+/* .tips__column {
   width: 459px;
 }
 
-.features__subtitle {
+.tips__subtitle {
   font-size: 22px;
   font-weight: 700;
   line-height: 34px;
@@ -27,7 +58,7 @@
   margin: 0;
 }
 
-.features__title {
+.tips__title {
   font-size: 56px;
   font-weight: 700;
   line-height: 56px;
@@ -36,20 +67,20 @@
   margin: 24px 0 0 0;
 }
 
-.features__description {
+.tips__description {
   margin: 30px 0 0 0;
   font-size: 24px;
   line-height: 34px;
 }
 
-.features__advantage-header {
+.tips__advantage-header {
   display: flex;
   align-items: center;
   line-height: 42px;
   margin: 42px 0 0 0;
 }
 
-.features__advantage-title {
+.tips__advantage-title {
   color: #3142c6;
   font-size: 22px;
   font-weight: 700;
@@ -57,7 +88,7 @@
   margin: 0 0 0 15px;
 }
 
-.features__advantage-description {
+.tips__advantage-description {
   font-size: 18px;
   line-height: 26px;
   margin: 8px 0 0 0;
@@ -65,27 +96,27 @@
   border-bottom: 3px solid #3142c6;
 }
 
-.features__advantage-item {
+.tips__advantage-item {
   display: flex;
   border-bottom: 1px solid #2b292d26;
   margin: 21px 0 0 0;
   padding: 0 0 22px 0;
 }
 
-.features__advantage-item-text {
+.tips__advantage-item-text {
   font-size: 22px;
   font-weight: 700;
   line-height: 26px;
   margin: 0 0 0 15px;
 }
 
-.features__left-decoration {
+.tips__left-decoration {
   height: 166px;
   position: absolute;
   top: 258px;
 }
 
-.features__banner {
+.tips__banner {
   position: absolute;
   right: 0;
-}
+} */
